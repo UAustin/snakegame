@@ -259,7 +259,7 @@ window.onload = function(){
 				item[i].style.width = this.value + "px"
 				item[i].style.height = this.value + "px"
 			}
-			map.style.width = item[0].offsetWidth * 100 + "px"
+			map.style.width = item[0].offsetWidth * 20 + "px"
 		}
 		restart.onclick = function(){
 			window.location.reload()
